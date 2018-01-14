@@ -1,0 +1,22 @@
+//
+// Created by Ali Ahmet on 1/7/18.
+//
+
+#ifndef NCURSES_SNAKE_CONFIG_H
+#define NCURSES_SNAKE_CONFIG_H
+
+#define SNAKE_GAME_FPS 20
+#define SNAKE_GAME_HEIGHT 30
+#define SNAKE_GAME_WIDTH 30
+#define SNAKE_GAME_DEBUG 1
+
+#define SNAKE_OUTPUT_FILE_NAME "output.txt"
+#define SNAKE_JOINT_CHAR '#'
+#define SNAKE_FOOD_CHAR 'r'
+
+
+// Intermedite Values
+#define SNAKE_GAME_WAIT (1000000 / SNAKE_GAME_FPS)
+#define SNAKE_GAME_MIN_FRAME_HEIGHT (SNAKE_GAME_HEIGHT + 2 + 3)
+#define SNAKE_GAME_MIN_FRAME_WIDTH (SNAKE_GAME_WIDTH + 2)
+#endif //NCURSES_SNAKE_CONFIG_H
