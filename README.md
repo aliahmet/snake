@@ -2,7 +2,7 @@
 
 Classical snake game developed using ncurses library.
 
-[![asciicast](https://asciinema.org/a/157018.png)](https://asciinema.org/a/157018)
+[![asciicast](https://asciinema.org/a/157019.png)](https://asciinema.org/a/157019)
 
 
 ## Build
